@@ -1,0 +1,13 @@
+server:
+  port: 9001
+  
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    credentials:
+      access-key: AKIARXBJSPVLXIGO5NHD
+      secret-key: rOZn2AU/OxP5U7NR73AOLglk49HBJeQO1QYJYkUQ
+    end-point:
+      uri: https://sqs.us-east-1.amazonaws.com/<YOUR ID, get this from SQS Console>/spring-boot-sqs
